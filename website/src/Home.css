@@ -1,0 +1,191 @@
+.content-header {
+    position: relative;
+    height: 698px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180.08deg, #6512E3 8.39%, rgba(146, 18, 227, 0) 99.93%);
+    background-blend-mode: multiply;
+}
+
+.project-name {
+    font-size: 4rem;
+    margin: 0 0;
+    padding-top: 10rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.project-logo {
+    position: absolute;
+    right: 100px;
+}
+
+.users-persona {
+    /* border: 1px solid #000000; */
+    text-align: left;
+}
+
+.users-persona h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 77px;
+    color: rgba(101, 18, 227, 0.78);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 2rem 0 3rem 6rem;
+}
+
+.users-persona li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 29px;
+
+    color: #000000;
+
+}
+
+.users-persona h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #6512E3;
+}
+
+.users-persona h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.users-persona .row {
+    margin: 0 0 6rem 0rem;
+}
+
+.use-case-example {
+    /* height: 1000px; */
+
+    margin-bottom: 2rem;
+
+}
+
+.use-case-example h3 {
+    text-align: left;
+    width: fit-content;
+    border-radius: 50px;
+    background: rgba(101, 18, 227, 0.15);
+    padding: 1.5rem 2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 29px;
+    margin: 0 0 2rem 0;
+}
+
+.use-case-example p {
+    text-align: left;
+    border-radius: 50px;
+    background: rgba(101, 18, 227, 0.15);
+    padding: 1rem 2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 29px;
+    margin: 2rem 0 2rem 40rem;
+    /* width: fit-content; */
+}
+
+.use-case-example p.longer-text {
+    margin: 2rem 0 2rem 10rem;
+}
+
+
+.use-case-example .bold {
+    background: rgba(101, 18, 227, 0.49);
+    margin-top: 2rem;
+}
+
+.use-case-example .col-2 {
+    object-fit: contain;
+    height: 100%;
+    /* top: 2rem; */
+    /* margin:  0 0 2rem 0; */
+}
+
+.use-case-example .col-2.left {
+    padding: 0 2rem 2rem 2rem;
+
+}
+
+
+.use-case-example .col-2.right {
+    margin-top: 20rem;
+    padding: 2rem;
+
+}
+
+.use-case-example .br {
+    height: 100%;
+    line-height: 29px;
+}
+
+
+.functionality h2 {
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 77px;
+    color: rgba(101, 18, 227, 0.78);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 2rem 0 3rem 8rem;
+}
+
+.functionality li {
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 29px;
+    color: #000000;
+    margin-left: 2rem;
+    width: 80%;
+    padding-left: 0;
+}
+
+.functionality h3.bold {
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #6512E3;
+    margin: 4rem 1rem 1rem 1rem;
+}
+
+.functionality .row {
+    margin: 0 3rem 7rem 0;
+
+}
+
+.functionality .col-4 {
+    object-fit: contain;
+    width: 23rem;
+    margin-right: 3rem;
+}

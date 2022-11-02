@@ -189,3 +189,14 @@
     width: 23rem;
     margin-right: 3rem;
 }
+
+.footer{
+    background-color: #8a8787;
+    font-family: 'Inter';
+    color: white;
+}
+
+.footer a{
+    text-decoration: none !important;
+    color: white;
+}

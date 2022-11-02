@@ -77,6 +77,32 @@ function Home(props) {
                     <h2 className="">Functionality</h2>
                     <div className="container">
                         <div className="row">
+                            <img className="col-4 left" src={images['Functionality-Cooking.png']} alt="User-2" />
+                            <div className="col-8">
+                                <h3 className="bold">Cooking</h3>
+                                <ul>
+                                    <li>Ask IA to assist you with cooking a meal</li>
+                                    <li>Ask IA to provide you with a meal matching or a diet meal</li>
+                                    <li>Ask IA to assist you with defrost.</li>
+                                    <li>Ask IA to assist you with making dessert</li>
+                                    <li>Ask IA to assist you with making special sauces</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <img className="col-4 left" src={images['Functionality-DIY.png']} alt="User-2" />
+                            <div className="col-8">
+                                <h3 className="bold">Do-It-Yourself (DIY)</h3>
+                                <ul>
+                                    <li>Ask IA to guide you how to pitch a tent</li>
+                                    <li>Ask IA to help you with fixing the broken light bulb</li>
+                                    <li>Ask IA to learn the seeds planting knowledge</li>
+                                    <li>Ask IA to help you with the skincare routine</li>
+                                    <li>Ask IA to provide you with the workout plan</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="row">
                             <img className="col-4 left" src={images['Functionality-Calendar.png']} alt="User-2" />
                             <div className="col-8">
                                 <h3 className="bold">Calendar Scheduling</h3>
@@ -137,16 +163,16 @@ function Home(props) {
                         <div className="row">
                             <img className="col-4 left" src={images['Functionality-Download.png']} alt="User-2" />
                             <div className="col-8">
-                                <h3 className="bold">Calendar Scheduling</h3>
+                                <h3 className="bold">App Download</h3>
                                 <ul>
                                     <li>Ask IA download applications / data / documents, etc...</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
+                <footer className="footer">Copyright © <a href="https://infoseeking.org/">InfoSeeking Lab </a>
+                     2010-2022</footer>
 
             </div>
         </div >

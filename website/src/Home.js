@@ -28,16 +28,14 @@ function Home(props) {
                     <h3 className="">Users Persona</h3>
                     <div className="container">
                         <div className="row">
-                            <img className="col-3" src={images['UserPersona-1.png']} alt="User-1" />
+                            <img className="col-3" src={images['UserPersona-1.svg']} alt="UserPersona-1" />
                             <div className="col-9">
                                 <h4>App Usage</h4>
                                 <ul>
-                                    <li>5 minutes everyday for keeping track of interviews, schedule, and extracurriculars</li>
-                                    <li>5 minutes everyday for coordinating groceries, bills, and other expenses</li>
-                                    <li>10 minutes everyday for scheduling flights, hotels, and exploring the cities for interview</li>
-                                    <li>10 minutes everyday for socializing with peers and arranging daily plan</li>
+                                    <li>As a commuter, I want to ask IA for the faster way to get to the destination so that I choose the fastest way.</li>
+                                    <li>As a cooking beginner, I want to ask IA to guide me through the cooking steps so that I do need to spend time on checking my phone while cooking.</li>
+                                    <li>As a fitness enthusiast, I want to ask IA to provide me with a workout plan so that I can follow the muscle-building schedule and have a better performance.</li>
                                 </ul>
-                                <h5>In total about 30 minutes each day</h5>
 
                             </div>
                         </div>
@@ -45,30 +43,14 @@ function Home(props) {
                             <div className="col-9">
                                 <h4>App Usage</h4>
                                 <ul>
-                                    <li>5 minutes everyday for keeping track of interviews, schedule, and extracurriculars</li>
-                                    <li>5 minutes everyday for coordinating groceries, bills, and other expenses</li>
-                                    <li>10 minutes everyday for scheduling flights, hotels, and exploring the cities for interview</li>
-                                    <li>10 minutes everyday for socializing with peers and arranging daily plan</li>
+                                    <li>As a student, I am new to skin care products, I want to ask IA for the skin care steps so that I’m not going to mess up the steps.</li>
+                                    <li>As a dieter, I want to ask IA to provide me with a diet plan so that I can easily make myself daily healthy meals.</li>
+                                    <li>As a solitary, I want to ask IA to assist me with fixing the household applications so that I can fix the broken tools by myself.</li>
+                                    <li>As a flower lover, I want to ask IA to provide me with a guide to planting so that the plant can be grown better.</li>
+                                    <li>As a coffee lover, I want to ask IA to help me to make coffee so that I can make different kinds of coffee by myself.</li>
                                 </ul>
-                                <h5>In total about 30 minutes each day</h5>
                             </div>
-                            <img className="col-3" src={images['UserPersona-2.png']} alt="User-2" />
-                        </div>
-                    </div>
-                </div>
-
-                <div className="use-case-example">
-                    <div className="container">
-                        <div className="row">
-                            <img className="col-2 left" src={images['SpeechBubbleMan.png']} alt="User-2" />
-                            <div className="col-8">
-                                <h3 className="bold">Schedule some time for me tomorrow to look for dentists.</h3>
-                                <p>No problem!</p>
-                                <p>...</p>
-                                <p className="longer-text">I have scheduled an event ‘Look for dentists’ tomorrow 1-2pm. I have also added information about nearby dentists in notes for your event.</p>
-                                <br />
-                            </div>
-                            <img className="col-2 right" src={images['AppHomePage.png']} alt="User-2" />
+                            <img className="col-3" src={images['UserPersona-2.svg']} alt="UserPersona-2" />
                         </div>
                     </div>
                 </div>
@@ -77,7 +59,7 @@ function Home(props) {
                     <h2 className="">Functionality</h2>
                     <div className="container">
                         <div className="row">
-                            <img className="col-4 left" src={images['Functionality-Cooking.png']} alt="User-2" />
+                            <img className="col-4 left" src={images['Functionality-Cooking.png']} alt="Functionality-Cooking" />
                             <div className="col-8">
                                 <h3 className="bold">Cooking</h3>
                                 <ul>
@@ -90,7 +72,7 @@ function Home(props) {
                             </div>
                         </div>
                         <div className="row">
-                            <img className="col-4 left" src={images['Functionality-DIY.png']} alt="User-2" />
+                            <img className="col-4 left" src={images['Functionality-DIY.png']} alt="Functionality-DIY" />
                             <div className="col-8">
                                 <h3 className="bold">Do-It-Yourself (DIY)</h3>
                                 <ul>
@@ -103,16 +85,17 @@ function Home(props) {
                             </div>
                         </div>
                         <div className="row">
-                            <img className="col-4 left" src={images['Functionality-Calendar.png']} alt="User-2" />
+                            <img className="col-4 left" src={images['Functionality-Calendar.png']} alt="Functionality-Calendar" />
                             <div className="col-8">
                                 <h3 className="bold">Calendar Scheduling</h3>
                                 <ul>
                                     <li>Ask IA to schedule a meeting/ classes/ specific time and place to meet with friends through IA.</li>
+                                    <li>Ask IA to researve an appointment in the specific restaurant/recreation/location etc...</li>
                                 </ul>
                             </div>
                         </div>
                         <div className="row">
-                            <img className="col-4 left" src={images['Functionality-Shopping.png']} alt="User-2" />
+                            <img className="col-4 left" src={images['Functionality-Shopping.png']} alt="Functionality-Shopping" />
                             <div className="col-8">
                                 <h3 className="bold">Online Shopping</h3>
                                 <ul>
@@ -121,7 +104,7 @@ function Home(props) {
                             </div>
                         </div>
                         <div className="row">
-                            <img className="col-4 left" src={images['Functionality-Map.png']} alt="User-2" />
+                            <img className="col-4 left" src={images['Functionality-Map.png']} alt="Functionality-Map" />
                             <div className="col-8">
                                 <h3 className="bold">Map & GPS</h3>
                                 <ul>
@@ -130,49 +113,51 @@ function Home(props) {
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div className="user-scenario">
+                    <h2 className="">User Scenario</h2>
+                    <div className="container">
                         <div className="row">
-                            <img className="col-4 left" src={images['Functionality-Text-1.png']} alt="User-2" />
+                            <img className="col-2 left" id="user-1" src={images['User-1.svg']} alt="User-1" />
                             <div className="col-8">
-                                <h3 className="bold">Text and Message</h3>
-                                <ul>
-                                    <li>Ask IA to schedule time from the messages listed</li>
-                                    <li>Ask IA to find and send with the voice content input to the specific contacts</li>
-                                </ul>
+                                <h3 className="bold">I want to make myself a simple brownie, can you assist me with detailed steps?</h3>
+                                <p className="longer-text">Definitely! Before we get started, you should have the following ingredients: plain flour, caster sugar, eggs, chocolate powder, butter, baking powder, and salt.</p>
+                                <h3 className="bold">Great! I have all the ingredients.</h3>
+                                <p className="longer-text">First, You should preheat the oven to 190 celsius. Then, melt the butter or margarine in a small pan over low heat. At the same time, you can mix the caster sugar and eggs in a new bowl.</p>
+                                <br />
                             </div>
+                            <img className="col-2 right" src={images['VoiceAssistant.svg']} alt="Voice Assistant" />
                         </div>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                         <div className="row">
-                            <img className="col-4 left" src={images['Functionality-Text-2.png']} alt="User-2" />
+                            <img className="col-2 left" src={images['User-2.svg']} alt="User-2" />
                             <div className="col-8">
-                                <h3 className="bold">Text and Message</h3>
-                                <ul>
-                                    <li>Ask IA about the specific location listed in email</li>
-                                    <li>Ask IA to generate reminder from email</li>
-                                </ul>
+                                <h3 className="bold">The light bulb in the house is broken, can you guide me with fixing it?</h3>
+                                <p className="longer-text">Sure! Could you tell me which light bulb you are going to fix?</p>
+                                <h3 className="bold">It's the light bulb in the ceiling.</h3>
+                                <p className="longer-text">Before we get started, please make sure that all the power has already been turned off. And since the ceiling is normally untouchable, you should have safe and hard extension tools and a glove to help you touch the bulb.</p>
+                                <p className="longer-text">To assure you do the turn-off part, please reply to me with “I already turned off the power” after 2 mins.</p>
+                                <h3 className="bold">I already turned off the power.</h3>
+                                <p className="longer-text">Make sure that the light bulb is already cooled down before touching it. </p>
+                                <p className="longer-text">Then you need to remove the screws with the screwdriver to take off the dome from the frame.</p>
+                                <p className="longer-text">After it, you can replace your old light bulb with the new one and fix the dome back to the frame.</p>
+                                <h3 className="bold">Alright! Thank you for guiding me.</h3>
+                                <p className="longer-text">Don’t forget to get rid of the bulb safely! You can wrap it with old newspapers or magazines before throwing it.</p>
+                                <br />
                             </div>
-                        </div>
-                        <div className="row">
-                            <img className="col-4 left" src={images['Functionality-Photo.png']} alt="User-2" />
-                            <div className="col-8">
-                                <h3 className="bold">Calendar Scheduling</h3>
-                                <ul>
-                                    <li>Ask IA about the common topics of the photo</li>
-                                    <li>Ask IA about the location of the photo</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <img className="col-4 left" src={images['Functionality-Download.png']} alt="User-2" />
-                            <div className="col-8">
-                                <h3 className="bold">App Download</h3>
-                                <ul>
-                                    <li>Ask IA download applications / data / documents, etc...</li>
-                                </ul>
-                            </div>
+                            <img className="col-2 right" id="voiceAssistant-2" src={images['VoiceAssistant.svg']} alt="Voice Assistant" />
                         </div>
                     </div>
                 </div>
+
+
                 <footer className="footer">Copyright © <a href="https://infoseeking.org/">InfoSeeking Lab </a>
-                     2010-2022</footer>
+                    2010-2022</footer>
 
             </div>
         </div >

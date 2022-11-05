@@ -63,11 +63,11 @@ function Home(props) {
                             <div className="col-8">
                                 <h3 className="bold">Cooking</h3>
                                 <ul>
-                                    <li>Ask IA to assist you with cooking a meal</li>
-                                    <li>Ask IA to provide you with a meal matching or a diet meal</li>
+                                    <li>Ask IA to assist you with cooking a meal.</li>
+                                    <li>Ask IA to provide you with a meal matching or a diet meal.</li>
                                     <li>Ask IA to assist you with defrost.</li>
-                                    <li>Ask IA to assist you with making dessert</li>
-                                    <li>Ask IA to assist you with making special sauces</li>
+                                    <li>Ask IA to assist you with making dessert.</li>
+                                    <li>Ask IA to assist you with making special sauces.</li>
                                 </ul>
                             </div>
                         </div>
@@ -76,11 +76,11 @@ function Home(props) {
                             <div className="col-8">
                                 <h3 className="bold">Do-It-Yourself (DIY)</h3>
                                 <ul>
-                                    <li>Ask IA to guide you how to pitch a tent</li>
-                                    <li>Ask IA to help you with fixing the broken light bulb</li>
-                                    <li>Ask IA to learn the seeds planting knowledge</li>
-                                    <li>Ask IA to help you with the skincare routine</li>
-                                    <li>Ask IA to provide you with the workout plan</li>
+                                    <li>Ask IA to give you instructions for household appliances.</li>
+                                    <li>Ask IA to help you with fixing the broken light bulb.</li>
+                                    <li>Ask IA to learn the seeds planting knowledge.</li>
+                                    <li>Ask IA to help you with the skincare routine.</li>
+                                    <li>Ask IA to provide you with the workout plan.</li>
                                 </ul>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ function Home(props) {
                                 <h3 className="bold">Map & GPS</h3>
                                 <ul>
                                     <li>Ask IA for the best commute way to reach to the destination.</li>
-                                    <li>IA can provide users with the current location</li>
+                                    <li>IA can provide users with the current weather conditions.</li>
                                 </ul>
                             </div>
                         </div>

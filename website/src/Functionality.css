@@ -1,0 +1,55 @@
+ 
+ .functionality{
+    margin-top: 4rem;
+ }
+ 
+.func-1{
+    width: 95%;
+}
+
+ .main{
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 5em;
+     color: #F2F2F2;
+     padding-top: 28rem;
+
+ }
+
+ .title {
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 3rem;
+     /* line-height: 61px; */
+     color: #F2F2F2;
+     margin: 0 0 4rem 0;
+ }
+
+ ul{
+    white-space: pre-wrap;
+    list-style-position: outside;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #F2F2F2;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 2rem 20rem 4rem 20rem;
+
+ }
+
+ li{
+    display: block;
+    padding: 0.5rem;
+ }
+
+ .pic{
+    margin: 4rem 0 ;
+ }
+
+footer{
+    margin-top: 10rem;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+
 import { NavLink } from "react-router-dom";
 import './NavBar.css';
 
@@ -26,17 +27,17 @@ function NavBar(props) {
             </NavLink> */}
             <div className="navbar_right">
                 <li>
-                    <NavLink exact="true" className="inactive navlink" activeClassName="active" to="/" >
+                    <NavLink exact="true" className="inactive navlink" activeClassName="active" to="/home" >
                         Home
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink exact="true" className="inactive navlink" activeClassName="active" to="/about">
+                    <NavLink exact="true" className="inactive navlink" activeClassName="active" to="/functionality">
                         Functionality
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink exact="true" className="inactive navlink" activeClassName="active" to="/work">
+                    <NavLink exact="true" className="inactive navlink" activeClassName="active" to="/about">
                         About Us
                     </NavLink>
                 </li>

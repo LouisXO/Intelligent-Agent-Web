@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
+
+.top_navbar {
+    justify-items: center;
+    /* color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    height: 3vh;
+    color: #293241;
+    /* background-color: #002fa7; */
+    background-color: #1c1c1c;
+    align-items: center;
+}
+
+.navbar_right {
+    /* justify-items: auto;
+    color: aliceblue;
+    flex: 12;
+    margin: auto !important; */
+    /* display: flex;
+    justify-content: space-around; */
+    margin-right: 1rem;
+}
+
+.logo {
+    margin-left: 2rem;
+}
+
+.icon {
+    margin-left: 1rem;
+}
+
+
+.inactive {
+    /* color: #7f9fbd; */
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    margin-left: 1rem;
+
+}
+
+.active {
+    color: #E0FBFC;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    /* height: 50%; */
+    /* padding: 20px 0 20px; */
+}
+
+.navlink {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    transition: color 0.1s, background-color 0.1s;
+    /* color: #000; */
+}
+
+.navlink::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 90%;
+    height: 2px;
+    width: 100%;
+    background-color: #E0FBFC;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    transition: color 0.1s, -webkit-transform 0.2s ease-out;
+    transition: color 0.1s, transform 0.2s ease-out;
+    transition: color 0.1s, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.navlink:active::before {
+    background-color: #000000;
+}
+
+
+.navlink:hover::before,
+.navlink:focus::before {
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+
+@media only screen and (min-width: 600px) {
+    .top_navbar {
+        height: 80px !important;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .top_navbar {
+        height: 90px !important;
+        font-size: 30px;
+
+    }
+}

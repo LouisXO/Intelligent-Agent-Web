@@ -9,136 +9,131 @@
 }
 
 .project-name {
-    font-size: 4rem;
-    margin: 0 0;
-    padding-top: 10rem;
-    font-family: 'Inter';
+    font-family: 'Thabit';
     font-style: normal;
     font-weight: 700;
-    line-height: 70px;
+    font-size: 7rem;
+    line-height: 37px;
+    text-align: center;
     color: #FFFFFF;
+    padding-top: 10rem;
+
 }
+
+.project-bio {
+    font-family: 'Thabit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 2rem;
+}
+
+.ami-logo {
+    margin-top: 1.5rem;
+}
+
 
 .project-logo {
     position: absolute;
     right: 100px;
 }
 
-.users-persona {
-    /* border: 1px solid #000000; */
-    text-align: left;
+.intro {
+    margin-top: 13rem;
 }
 
-.users-persona h3 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 77px;
-    color: rgba(101, 18, 227, 0.78);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 2rem 0 3rem 6rem;
+.intro-que {
+    font-family: 'Montserrat';
+    /* font-weight: 500; */
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+    color: #333333;
 }
 
-.users-persona li {
-    font-family: 'Inter';
+.intro-bio {
+    display: flex;
+    font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 20px;
     line-height: 29px;
-
-    color: #000000;
-
-}
-
-.users-persona h4 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #6512E3;
-}
-
-.users-persona h5 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-}
-
-.users-persona .row {
-    margin: 0 0 6rem 0rem;
+    color: #333333;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .user-scenario {
     /* height: 1000px; */
-
-    margin-bottom: 2rem;
-
+    margin: 8rem 0 2rem 0 ;
 }
 
-.user-scenario h3 {
-    text-align: left;
-    width: fit-content;
-    border-radius: 50px;
-    background: rgba(101, 18, 227, 0.15);
-    padding: 1.5rem 2rem;
-    font-family: 'Inter';
+.user-scenario h4 {
+    font-family: 'Thabit';
     font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 29px;
-    margin: 0 0 2rem 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #575757;
+    margin-left: 6rem;
+    margin-top: 14rem;
 }
 
 .user-scenario p {
     text-align: left;
     border-radius: 50px;
-    background: rgba(101, 18, 227, 0.15);
+    background: #F7E9FF;
     padding: 1rem 2rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 29px;
-    margin: 2rem 0 2rem 40rem;
+    margin: 2rem 2rem 4rem 5rem;
     /* width: fit-content; */
 }
 
-.user-scenario p.longer-text {
-    margin: 2rem 0 2rem 10rem;
+#user-2{
+    background: #FFE6F4;
+}
+
+#user-3{
+    background: #FFFAC9;
 }
 
 
-.user-scenario .bold {
-    background: rgba(101, 18, 227, 0.49);
-    margin-top: 2rem;
-}
 
-.user-scenario .col-2 {
+.user-scenario .col-4 {
     object-fit: contain;
     height: 100%;
     /* top: 2rem; */
     /* margin:  0 0 2rem 0; */
 }
 
-.user-scenario .col-2.left {
+.user-scenario .col-4.left {
     padding: 0 -2rem 2rem 2rem;
     left: 0;
     position: relative;
 
 }
+
 #user-1 {
     padding: 0 4rem 2rem 2rem;
+    margin-left: 4rem;
 
 }
 
 
 
-.user-scenario .col-2.right {
+.user-scenario .col-4.right {
     margin-top: 25rem;
     padding: 2rem;
 
@@ -166,62 +161,46 @@
     margin: 2rem 0 3rem 8rem;
 }
 
-
-.functionality h2 {
-    text-align: left;
-    font-family: 'Inter';
+.ask h4{
+    font-family: 'Thabit';
     font-style: normal;
     font-weight: 700;
-    font-size: 3rem;
-    line-height: 77px;
-    color: rgba(101, 18, 227, 0.78);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 2rem 0 3rem 8rem;
+    font-size: 4rem;
+    line-height: 40px;
+    margin-top: 5rem;
+
+
 }
 
-.functionality li {
-    text-align: left;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.3rem;
-    line-height: 29px;
-    color: #000000;
-    margin-left: 2rem;
-    width: 80%;
-    padding-left: 0;
-}
-
-.functionality h3.bold {
-    text-align: left;
-    font-family: 'Inter';
+.ask button, .ask button:hover, .ask button:focus, .ask button:active{
+    /* /* background-color: rgb(261, 160, 191); */
+    background: #D4447B !important;
+    color: white !important;
+    border-radius: 40px;
+    font-size: 2rem;
+    font-family: 'Thabit';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #6512E3;
-    margin: 4rem 1rem 1rem 1rem;
+    line-height: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
-.functionality .row {
-    margin: 0 3rem 7rem 0;
-
+.ask img{
+    display: absolute;
+    margin-bottom: 20rem;
+    margin-left: 10rem;
 }
 
-.functionality .col-4 {
-    object-fit: contain;
-    width: 23rem;
-    margin-right: 3rem;
-}
 
-.footer{
+.footer {
     background-color: #8a8787;
     font-family: 'Inter';
     color: white;
+    padding: 1rem 0 1rem 0;
 }
 
-.footer a{
+.footer a {
     text-decoration: none !important;
     color: white;
 }
-

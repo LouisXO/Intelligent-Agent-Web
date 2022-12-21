@@ -1,0 +1,108 @@
+/* .content-header {
+    position: relative;
+    height: 698px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180.08deg, #6512E3 8.39%, rgba(146, 18, 227, 0) 99.93%);
+    background-blend-mode: multiply;
+} */
+
+.about-name {
+    font-family: 'Thabit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7rem;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10rem;
+    margin-bottom: 7rem;
+
+}
+
+.about-bio {
+    font-family: 'Thabit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 2rem;
+    margin: 0 4rem;
+}
+
+.team h3 {
+    font-family: 'Thabit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7rem;
+    line-height: 37px;
+    text-align: center;
+    color: black;
+    padding-top: 10rem;
+    margin-bottom: 7rem;
+}
+
+.team-name {
+    font-family: 'Thabit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 37px;
+    text-align: center;
+    color: black;
+    padding-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.team-desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.team-pic {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    margin-left: 20rem;
+    margin-right: 5rem;
+}
+
+.row {
+    margin-bottom: 9rem;
+}
+
+.graphics1 {
+    position: absolute;
+    width: 50rem;
+    height: 70rem;
+    left: 90rem;
+    top: 40rem;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(111, 15, 217, 0.4) 0%, rgba(111, 15, 217, 0) 100%);
+}
+
+.graphics2 {
+    position: absolute;
+    width: 50rem;
+    height: 70rem;
+    left: -20rem;
+    top: 120rem;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(212, 68, 123, 0.4) 0%, rgba(212, 68, 123, 0) 100%);
+}
+
+.graphics3 {
+    position: absolute;
+    width: 50rem;
+    height: 70rem;
+    left: 80rem;
+    top: 190rem;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(212, 68, 123, 0.4) 0%, rgba(212, 68, 123, 0) 100%);
+}

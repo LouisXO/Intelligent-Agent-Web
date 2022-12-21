@@ -1,5 +1,6 @@
 import React from "react";
 import "./Functionality.css"
+import { useEffect } from "react";
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
 
 function Functionality(props) {
@@ -13,6 +14,11 @@ function Functionality(props) {
     const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/));
     // Usage example:
     // <img className="project-logo" src={images['HomeHeader.png']} />
+
+    useEffect(() => {
+        // 👇️ scroll to top on page load
+        window.scrollTo({top: 0, left: 0});
+      }, []);
 
     return (
 
@@ -89,8 +95,6 @@ function Functionality(props) {
                             <li>Ask AMI to provide a list of suppliers of the items that users want.</li>
                         </ul>
                     </div>
-                    <footer className="footer" style={{ backgroundImage: `url(${images['Footer.png']})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>Copyright © <a href="https://infoseeking.org/">InfoSeeking Lab </a>
-                    2010-2022</footer>
                 </div>
             </div>
         </div >

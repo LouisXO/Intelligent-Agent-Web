@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate,Link} from "react-router-dom";
 import "./Home.css"
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
@@ -13,6 +14,12 @@ function Home(props) {
     const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/));
     // Usage example:
     // <img className="project-logo" src={images['HomeHeader.png']} />
+
+    let navigate = useNavigate();
+    const routeChange = () => {
+        navigate("/functionality");
+    }
+
 
     return (
 
@@ -47,7 +54,7 @@ function Home(props) {
                         </div>
                     </div>
 
-                    <div className="row">    
+                    <div className="row">
                         <div className="col-6">
                             <h4> As a vegan ... </h4>
                             <p id="user-2" >I want to ask AMI to provide find me delicious home-cook vegan recipes</p>
@@ -69,13 +76,9 @@ function Home(props) {
                 <div className="ask">
                     <h4 className="">Ask Ami about anything!</h4>
                     {/* <img className="" src={images['Question.png']} alt="User-1" /> */}
-                    <button className="btn">Explore Functionality</button>
+                    <button className="btn" onClick={routeChange}>Explore Functionality</button>
+
                 </div>
-
-
-
-                <footer className="footer" style={{ backgroundImage: `url(${images['Footer.png']})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>Copyright © <a href="https://infoseeking.org/">InfoSeeking Lab </a>
-                    2010-2022</footer>
 
             </div>
         </div >

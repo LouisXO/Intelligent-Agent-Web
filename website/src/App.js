@@ -2,6 +2,9 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import './App.css';
 import Home from "./Home";
 import NavBar from "./NavBar";
+import About from "./About";
+import Footer from "./Footer";
+
 import Functionality from "./Functionality";
 
 
@@ -18,10 +21,10 @@ function App() {
           <Routes>
             <Route path="/home" element={<Home />} />
             <Route path="/functionality" element={<Functionality />} />
+            <Route path="/about" element={<About />} />
             <Route path="*" element={<Navigate to="/home" replace />}/>
-
-
           </Routes>
+          <Footer />
         </div>
       </BrowserRouter>
     </div>

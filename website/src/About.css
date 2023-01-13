@@ -1,16 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
-/* .content-header {
-    position: relative;
-    height: 698px;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(180.08deg, #6512E3 8.39%, rgba(146, 18, 227, 0) 99.93%);
-    background-blend-mode: multiply;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 
 .about-name {
-    font-family: 'Thabit';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 7rem;
@@ -23,7 +14,7 @@
 }
 
 .about-bio {
-    font-family: 'Thabit';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 1.5rem;
@@ -35,7 +26,7 @@
 }
 
 .team h3 {
-    font-family: 'Thabit';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 7rem;
@@ -47,7 +38,7 @@
 }
 
 .team-name {
-    font-family: 'Thabit';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 3rem;
